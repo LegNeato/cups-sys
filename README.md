@@ -5,7 +5,7 @@ Rust FFI bindings to [CUPS](https://www.cups.org/).
 Background
 -----------------------------------------
 
-CUPS is the standards-based, open source printing system developed by Apple Inc. for macOS® and other UNIX-like operating systems. CUPS uses the Internet Printing Protocol (IPP) to support printing to local and network printers.
+CUPS is the standards-based, open source printing system developed by Apple Inc. for macOS and other UNIX-like operating systems. CUPS uses the Internet Printing Protocol (IPP) to support printing to local and network printers.
 
 This library ([`cups-sys`](https://github.com/LegNeato/cups-sys)) provides a low-level interface to the CUPS library installed on your system. The binding is generated at build time via the  [`bindgen`](https://github.com/servo/rust-bindgen) project.
 

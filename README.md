@@ -1,4 +1,4 @@
-`cups-sys`
+`cups-sys` [![Build Status](https://travis-ci.org/LegNeato/cups-sys.svg?branch=master)](https://travis-ci.org/LegNeato/cups-sys)
 -----------------------------------------
 Rust FFI bindings to [CUPS](https://www.cups.org/).
 

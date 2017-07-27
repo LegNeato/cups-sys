@@ -1,0 +1,15 @@
+[package]
+name = "cups-sys"
+version = "0.1.0"
+description = "Low-level interface to the CUPS printing library."
+authors = ["Christian Legnitto <christian@legnitto.com>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["print", "cups", "printer", "ipp", "lpd"]
+categories = ["external-ffi-bindings"]
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.26.1"

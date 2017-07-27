@@ -1,8 +1,13 @@
-sudo: required
+sudo: false
 language: rust
 rust:
   - nightly
   - beta
   - stable
-install:
-  - "sudo apt-get install -y libcups2-dev"
+os:
+  - linux
+  - osx
+addons:
+  apt:
+    packages:
+    - libcups2-dev

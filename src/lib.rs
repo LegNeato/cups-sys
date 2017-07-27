@@ -18,10 +18,7 @@ mod tests {
             CUPS_FORMAT_TEXT,
             CString::new("text/plain").unwrap().as_bytes_with_nul()
         );
-        assert_eq!(
-            CUPS_JOBID_CURRENT,
-            0
-        );
+        assert_eq!(CUPS_JOBID_CURRENT, 0);
     }
 
     #[test]
@@ -58,7 +55,7 @@ mod tests {
                 let c_make_and_model = cupsGetOption(
                     CString::new("printer-make-and-model").unwrap().as_ptr(),
                     destination.num_options,
-                    destination.options
+                    destination.options,
                 );
                 let make_and_model = CStr::from_ptr(c_make_and_model).to_string_lossy();
                 println!("{} ({})", printer_name, make_and_model);

@@ -11,7 +11,6 @@ mod tests {
     use std::ptr;
     use std::ffi::CString;
     use std::ffi::CStr;
-    use std::net::{TcpListener, TcpStream};
 
     #[test]
     fn constants() {
@@ -31,6 +30,16 @@ mod tests {
             let mut dests: *mut cups_dest_t = mem::zeroed();
             let num_dests = cupsGetDests(&mut dests as *mut _);
             std::slice::from_raw_parts(dests, num_dests as usize);
+            cupsFreeDests(num_dests, dests);
+        }
+    }
+
+    #[test]
+    fn default_printer() {
+        unsafe {
+            let mut dests: *mut cups_dest_t = mem::zeroed();
+            let num_dests = cupsGetDests(&mut dests as *mut _);
+            cupsGetDest(ptr::null(), ptr::null(), num_dests, dests);
             cupsFreeDests(num_dests, dests);
         }
     }
@@ -70,7 +79,6 @@ mod tests {
                 */
 
             }
-
             cupsFreeDests(num_dests, dests);
         }
     }

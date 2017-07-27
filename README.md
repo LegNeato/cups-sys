@@ -12,7 +12,34 @@ This library ([`cups-sys`](https://github.com/LegNeato/cups-sys)) provides a low
 I just want to print from Rust
 -----------------------------------------
 
-For a higher-level, safe and idiomatic Rust interface that uses this library, check out the  [`cups`](https://github.com/LegNeato/cups-rust) crate.
+```rust
+use std::mem;
+use std::ptr;
+use cups-sys::*;
+
+unsafe {
+  let mut dests: *mut cups_dest_t = mem::zeroed();
+  let num_dests = cupsGetDests(&mut dests as *mut _);
+  // Get the default printer.
+  let destination: cups_dest_t = cupsGetDest(ptr::null(), ptr::null(), num_dests, dests);
+  // Print a real page.
+  let job_id: i32 = cupsPrintFile(
+      (*destination).name,
+      // File to print.
+      CString::new("/path/to/file")
+          .unwrap()
+          .as_ptr(),
+      // Name of the print job.
+      CString::new("Test print job")
+          .unwrap()
+          .as_ptr(),
+      (*destination).num_options,
+      (*destination).options
+  );
+  println!("{}", job_id);
+  cupsFreeDests(num_dests, dests);
+}
+```
 
 For a pure-Rust IPP implementation, check out [`ipp.rs`](https://github.com/dremon/ipp.rs).
 

@@ -19,6 +19,8 @@ fn main() {
         .opaque_type("__msfilterreq")
         .opaque_type("group_req")
         .opaque_type("group_source_req")
+        // bindgen layout tests fail on Rust nightly 1.21.0
+        .layout_tests(false)
         // This fails with "`IPPORT_RESERVED` already defined".
         .hide_type("IPPORT_RESERVED")
         // Finish the builder and generate the bindings.

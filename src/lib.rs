@@ -76,19 +76,18 @@ mod tests {
                 let make_and_model = CStr::from_ptr(cupsGetOption(
                     CString::new("printer-make-and-model").unwrap().as_ptr(),
                     dest.num_options,
-                    dest.options
+                    dest.options,
                 )).to_string_lossy();
                 println!("{} ({})", printer_name, make_and_model);
 
                 let job_id: i32 = cupsPrintFile(
                     dest.name,
-                    CString::new("./test-resources/testPrintFile.txt").unwrap()
-                        .as_ptr(),
-                    CString::new("Test Print")
+                    CString::new("./test-resources/testPrintFile.txt")
                         .unwrap()
                         .as_ptr(),
+                    CString::new("Test Print").unwrap().as_ptr(),
                     dest.num_options,
-                    dest.options
+                    dest.options,
                 );
                 println!("{}", job_id);
 

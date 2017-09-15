@@ -19,6 +19,8 @@ fn main() {
         .opaque_type("__msfilterreq")
         .opaque_type("group_req")
         .opaque_type("group_source_req")
+        // This fails with "`IPPORT_RESERVED` already defined" on Linux.
+        .hide_type("IPPORT_RESERVED")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.

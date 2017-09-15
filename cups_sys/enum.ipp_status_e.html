@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `ipp_status_e` enum in crate `cups_sys`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, ipp_status_e">
+
+    <title>cups_sys::ipp_status_e - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc enum">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Enum ipp_status_e</p><div class="block items"><ul><li><a href="#variants">Variants</a></li><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='index.html'>cups_sys</a></p><script>window.sidebarCurrent = {name: 'ipp_status_e', ty: 'enum', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Enum <a href='index.html'>cups_sys</a>::<wbr><a class="enum" href=''>ipp_status_e</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12671-12736' title='goto source code'>[src]</a></span></h1>
+<pre class='rust enum'><div class="docblock attributes">#[repr(i32)]
+</div>pub enum ipp_status_e {
+    IPP_STATUS_CUPS_INVALID,
+    IPP_STATUS_OK,
+    IPP_STATUS_OK_IGNORED_OR_SUBSTITUTED,
+    IPP_STATUS_OK_CONFLICTING,
+    IPP_STATUS_OK_IGNORED_SUBSCRIPTIONS,
+    IPP_STATUS_OK_IGNORED_NOTIFICATIONS,
+    IPP_STATUS_OK_TOO_MANY_EVENTS,
+    IPP_STATUS_OK_BUT_CANCEL_SUBSCRIPTION,
+    IPP_STATUS_OK_EVENTS_COMPLETE,
+    IPP_STATUS_REDIRECTION_OTHER_SITE,
+    IPP_STATUS_CUPS_SEE_OTHER,
+    IPP_STATUS_ERROR_BAD_REQUEST,
+    IPP_STATUS_ERROR_FORBIDDEN,
+    IPP_STATUS_ERROR_NOT_AUTHENTICATED,
+    IPP_STATUS_ERROR_NOT_AUTHORIZED,
+    IPP_STATUS_ERROR_NOT_POSSIBLE,
+    IPP_STATUS_ERROR_TIMEOUT,
+    IPP_STATUS_ERROR_NOT_FOUND,
+    IPP_STATUS_ERROR_GONE,
+    IPP_STATUS_ERROR_REQUEST_ENTITY,
+    IPP_STATUS_ERROR_REQUEST_VALUE,
+    IPP_STATUS_ERROR_DOCUMENT_FORMAT_NOT_SUPPORTED,
+    IPP_STATUS_ERROR_ATTRIBUTES_OR_VALUES,
+    IPP_STATUS_ERROR_URI_SCHEME,
+    IPP_STATUS_ERROR_CHARSET,
+    IPP_STATUS_ERROR_CONFLICTING,
+    IPP_STATUS_ERROR_COMPRESSION_NOT_SUPPORTED,
+    IPP_STATUS_ERROR_COMPRESSION_ERROR,
+    IPP_STATUS_ERROR_DOCUMENT_FORMAT_ERROR,
+    IPP_STATUS_ERROR_DOCUMENT_ACCESS,
+    IPP_STATUS_ERROR_ATTRIBUTES_NOT_SETTABLE,
+    IPP_STATUS_ERROR_IGNORED_ALL_SUBSCRIPTIONS,
+    IPP_STATUS_ERROR_TOO_MANY_SUBSCRIPTIONS,
+    IPP_STATUS_ERROR_IGNORED_ALL_NOTIFICATIONS,
+    IPP_STATUS_ERROR_PRINT_SUPPORT_FILE_NOT_FOUND,
+    IPP_STATUS_ERROR_DOCUMENT_PASSWORD,
+    IPP_STATUS_ERROR_DOCUMENT_PERMISSION,
+    IPP_STATUS_ERROR_DOCUMENT_SECURITY,
+    IPP_STATUS_ERROR_DOCUMENT_UNPRINTABLE,
+    IPP_STATUS_ERROR_ACCOUNT_INFO_NEEDED,
+    IPP_STATUS_ERROR_ACCOUNT_CLOSED,
+    IPP_STATUS_ERROR_ACCOUNT_LIMIT_REACHED,
+    IPP_STATUS_ERROR_ACCOUNT_AUTHORIZATION_FAILED,
+    IPP_STATUS_ERROR_NOT_FETCHABLE,
+    IPP_STATUS_ERROR_CUPS_ACCOUNT_INFO_NEEDED,
+    IPP_STATUS_ERROR_CUPS_ACCOUNT_CLOSED,
+    IPP_STATUS_ERROR_CUPS_ACCOUNT_LIMIT_REACHED,
+    IPP_STATUS_ERROR_CUPS_ACCOUNT_AUTHORIZATION_FAILED,
+    IPP_STATUS_ERROR_INTERNAL,
+    IPP_STATUS_ERROR_OPERATION_NOT_SUPPORTED,
+    IPP_STATUS_ERROR_SERVICE_UNAVAILABLE,
+    IPP_STATUS_ERROR_VERSION_NOT_SUPPORTED,
+    IPP_STATUS_ERROR_DEVICE,
+    IPP_STATUS_ERROR_TEMPORARY,
+    IPP_STATUS_ERROR_NOT_ACCEPTING_JOBS,
+    IPP_STATUS_ERROR_BUSY,
+    IPP_STATUS_ERROR_JOB_CANCELED,
+    IPP_STATUS_ERROR_MULTIPLE_JOBS_NOT_SUPPORTED,
+    IPP_STATUS_ERROR_PRINTER_IS_DEACTIVATED,
+    IPP_STATUS_ERROR_TOO_MANY_JOBS,
+    IPP_STATUS_ERROR_TOO_MANY_DOCUMENTS,
+    IPP_STATUS_ERROR_CUPS_AUTHENTICATION_CANCELED,
+    IPP_STATUS_ERROR_CUPS_PKI,
+    IPP_STATUS_ERROR_CUPS_UPGRADE_REQUIRED,
+}</pre><h2 id='variants' class='variants small-section-header'>
+                   Variants<a href='#variants' class='anchor'></a></h2>
+<span id='variant.IPP_STATUS_CUPS_INVALID' class='variant'><span id='IPP_STATUS_CUPS_INVALID.v' class='invisible'><code>IPP_STATUS_CUPS_INVALID</code></span></span><span id='variant.IPP_STATUS_OK' class='variant'><span id='IPP_STATUS_OK.v' class='invisible'><code>IPP_STATUS_OK</code></span></span><span id='variant.IPP_STATUS_OK_IGNORED_OR_SUBSTITUTED' class='variant'><span id='IPP_STATUS_OK_IGNORED_OR_SUBSTITUTED.v' class='invisible'><code>IPP_STATUS_OK_IGNORED_OR_SUBSTITUTED</code></span></span><span id='variant.IPP_STATUS_OK_CONFLICTING' class='variant'><span id='IPP_STATUS_OK_CONFLICTING.v' class='invisible'><code>IPP_STATUS_OK_CONFLICTING</code></span></span><span id='variant.IPP_STATUS_OK_IGNORED_SUBSCRIPTIONS' class='variant'><span id='IPP_STATUS_OK_IGNORED_SUBSCRIPTIONS.v' class='invisible'><code>IPP_STATUS_OK_IGNORED_SUBSCRIPTIONS</code></span></span><span id='variant.IPP_STATUS_OK_IGNORED_NOTIFICATIONS' class='variant'><span id='IPP_STATUS_OK_IGNORED_NOTIFICATIONS.v' class='invisible'><code>IPP_STATUS_OK_IGNORED_NOTIFICATIONS</code></span></span><span id='variant.IPP_STATUS_OK_TOO_MANY_EVENTS' class='variant'><span id='IPP_STATUS_OK_TOO_MANY_EVENTS.v' class='invisible'><code>IPP_STATUS_OK_TOO_MANY_EVENTS</code></span></span><span id='variant.IPP_STATUS_OK_BUT_CANCEL_SUBSCRIPTION' class='variant'><span id='IPP_STATUS_OK_BUT_CANCEL_SUBSCRIPTION.v' class='invisible'><code>IPP_STATUS_OK_BUT_CANCEL_SUBSCRIPTION</code></span></span><span id='variant.IPP_STATUS_OK_EVENTS_COMPLETE' class='variant'><span id='IPP_STATUS_OK_EVENTS_COMPLETE.v' class='invisible'><code>IPP_STATUS_OK_EVENTS_COMPLETE</code></span></span><span id='variant.IPP_STATUS_REDIRECTION_OTHER_SITE' class='variant'><span id='IPP_STATUS_REDIRECTION_OTHER_SITE.v' class='invisible'><code>IPP_STATUS_REDIRECTION_OTHER_SITE</code></span></span><span id='variant.IPP_STATUS_CUPS_SEE_OTHER' class='variant'><span id='IPP_STATUS_CUPS_SEE_OTHER.v' class='invisible'><code>IPP_STATUS_CUPS_SEE_OTHER</code></span></span><span id='variant.IPP_STATUS_ERROR_BAD_REQUEST' class='variant'><span id='IPP_STATUS_ERROR_BAD_REQUEST.v' class='invisible'><code>IPP_STATUS_ERROR_BAD_REQUEST</code></span></span><span id='variant.IPP_STATUS_ERROR_FORBIDDEN' class='variant'><span id='IPP_STATUS_ERROR_FORBIDDEN.v' class='invisible'><code>IPP_STATUS_ERROR_FORBIDDEN</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_AUTHENTICATED' class='variant'><span id='IPP_STATUS_ERROR_NOT_AUTHENTICATED.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_AUTHENTICATED</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_AUTHORIZED' class='variant'><span id='IPP_STATUS_ERROR_NOT_AUTHORIZED.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_AUTHORIZED</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_POSSIBLE' class='variant'><span id='IPP_STATUS_ERROR_NOT_POSSIBLE.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_POSSIBLE</code></span></span><span id='variant.IPP_STATUS_ERROR_TIMEOUT' class='variant'><span id='IPP_STATUS_ERROR_TIMEOUT.v' class='invisible'><code>IPP_STATUS_ERROR_TIMEOUT</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_FOUND' class='variant'><span id='IPP_STATUS_ERROR_NOT_FOUND.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_FOUND</code></span></span><span id='variant.IPP_STATUS_ERROR_GONE' class='variant'><span id='IPP_STATUS_ERROR_GONE.v' class='invisible'><code>IPP_STATUS_ERROR_GONE</code></span></span><span id='variant.IPP_STATUS_ERROR_REQUEST_ENTITY' class='variant'><span id='IPP_STATUS_ERROR_REQUEST_ENTITY.v' class='invisible'><code>IPP_STATUS_ERROR_REQUEST_ENTITY</code></span></span><span id='variant.IPP_STATUS_ERROR_REQUEST_VALUE' class='variant'><span id='IPP_STATUS_ERROR_REQUEST_VALUE.v' class='invisible'><code>IPP_STATUS_ERROR_REQUEST_VALUE</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_FORMAT_NOT_SUPPORTED' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_FORMAT_NOT_SUPPORTED.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_FORMAT_NOT_SUPPORTED</code></span></span><span id='variant.IPP_STATUS_ERROR_ATTRIBUTES_OR_VALUES' class='variant'><span id='IPP_STATUS_ERROR_ATTRIBUTES_OR_VALUES.v' class='invisible'><code>IPP_STATUS_ERROR_ATTRIBUTES_OR_VALUES</code></span></span><span id='variant.IPP_STATUS_ERROR_URI_SCHEME' class='variant'><span id='IPP_STATUS_ERROR_URI_SCHEME.v' class='invisible'><code>IPP_STATUS_ERROR_URI_SCHEME</code></span></span><span id='variant.IPP_STATUS_ERROR_CHARSET' class='variant'><span id='IPP_STATUS_ERROR_CHARSET.v' class='invisible'><code>IPP_STATUS_ERROR_CHARSET</code></span></span><span id='variant.IPP_STATUS_ERROR_CONFLICTING' class='variant'><span id='IPP_STATUS_ERROR_CONFLICTING.v' class='invisible'><code>IPP_STATUS_ERROR_CONFLICTING</code></span></span><span id='variant.IPP_STATUS_ERROR_COMPRESSION_NOT_SUPPORTED' class='variant'><span id='IPP_STATUS_ERROR_COMPRESSION_NOT_SUPPORTED.v' class='invisible'><code>IPP_STATUS_ERROR_COMPRESSION_NOT_SUPPORTED</code></span></span><span id='variant.IPP_STATUS_ERROR_COMPRESSION_ERROR' class='variant'><span id='IPP_STATUS_ERROR_COMPRESSION_ERROR.v' class='invisible'><code>IPP_STATUS_ERROR_COMPRESSION_ERROR</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_FORMAT_ERROR' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_FORMAT_ERROR.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_FORMAT_ERROR</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_ACCESS' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_ACCESS.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_ACCESS</code></span></span><span id='variant.IPP_STATUS_ERROR_ATTRIBUTES_NOT_SETTABLE' class='variant'><span id='IPP_STATUS_ERROR_ATTRIBUTES_NOT_SETTABLE.v' class='invisible'><code>IPP_STATUS_ERROR_ATTRIBUTES_NOT_SETTABLE</code></span></span><span id='variant.IPP_STATUS_ERROR_IGNORED_ALL_SUBSCRIPTIONS' class='variant'><span id='IPP_STATUS_ERROR_IGNORED_ALL_SUBSCRIPTIONS.v' class='invisible'><code>IPP_STATUS_ERROR_IGNORED_ALL_SUBSCRIPTIONS</code></span></span><span id='variant.IPP_STATUS_ERROR_TOO_MANY_SUBSCRIPTIONS' class='variant'><span id='IPP_STATUS_ERROR_TOO_MANY_SUBSCRIPTIONS.v' class='invisible'><code>IPP_STATUS_ERROR_TOO_MANY_SUBSCRIPTIONS</code></span></span><span id='variant.IPP_STATUS_ERROR_IGNORED_ALL_NOTIFICATIONS' class='variant'><span id='IPP_STATUS_ERROR_IGNORED_ALL_NOTIFICATIONS.v' class='invisible'><code>IPP_STATUS_ERROR_IGNORED_ALL_NOTIFICATIONS</code></span></span><span id='variant.IPP_STATUS_ERROR_PRINT_SUPPORT_FILE_NOT_FOUND' class='variant'><span id='IPP_STATUS_ERROR_PRINT_SUPPORT_FILE_NOT_FOUND.v' class='invisible'><code>IPP_STATUS_ERROR_PRINT_SUPPORT_FILE_NOT_FOUND</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_PASSWORD' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_PASSWORD.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_PASSWORD</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_PERMISSION' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_PERMISSION.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_PERMISSION</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_SECURITY' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_SECURITY.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_SECURITY</code></span></span><span id='variant.IPP_STATUS_ERROR_DOCUMENT_UNPRINTABLE' class='variant'><span id='IPP_STATUS_ERROR_DOCUMENT_UNPRINTABLE.v' class='invisible'><code>IPP_STATUS_ERROR_DOCUMENT_UNPRINTABLE</code></span></span><span id='variant.IPP_STATUS_ERROR_ACCOUNT_INFO_NEEDED' class='variant'><span id='IPP_STATUS_ERROR_ACCOUNT_INFO_NEEDED.v' class='invisible'><code>IPP_STATUS_ERROR_ACCOUNT_INFO_NEEDED</code></span></span><span id='variant.IPP_STATUS_ERROR_ACCOUNT_CLOSED' class='variant'><span id='IPP_STATUS_ERROR_ACCOUNT_CLOSED.v' class='invisible'><code>IPP_STATUS_ERROR_ACCOUNT_CLOSED</code></span></span><span id='variant.IPP_STATUS_ERROR_ACCOUNT_LIMIT_REACHED' class='variant'><span id='IPP_STATUS_ERROR_ACCOUNT_LIMIT_REACHED.v' class='invisible'><code>IPP_STATUS_ERROR_ACCOUNT_LIMIT_REACHED</code></span></span><span id='variant.IPP_STATUS_ERROR_ACCOUNT_AUTHORIZATION_FAILED' class='variant'><span id='IPP_STATUS_ERROR_ACCOUNT_AUTHORIZATION_FAILED.v' class='invisible'><code>IPP_STATUS_ERROR_ACCOUNT_AUTHORIZATION_FAILED</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_FETCHABLE' class='variant'><span id='IPP_STATUS_ERROR_NOT_FETCHABLE.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_FETCHABLE</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_ACCOUNT_INFO_NEEDED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_ACCOUNT_INFO_NEEDED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_ACCOUNT_INFO_NEEDED</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_ACCOUNT_CLOSED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_ACCOUNT_CLOSED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_ACCOUNT_CLOSED</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_ACCOUNT_LIMIT_REACHED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_ACCOUNT_LIMIT_REACHED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_ACCOUNT_LIMIT_REACHED</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_ACCOUNT_AUTHORIZATION_FAILED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_ACCOUNT_AUTHORIZATION_FAILED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_ACCOUNT_AUTHORIZATION_FAILED</code></span></span><span id='variant.IPP_STATUS_ERROR_INTERNAL' class='variant'><span id='IPP_STATUS_ERROR_INTERNAL.v' class='invisible'><code>IPP_STATUS_ERROR_INTERNAL</code></span></span><span id='variant.IPP_STATUS_ERROR_OPERATION_NOT_SUPPORTED' class='variant'><span id='IPP_STATUS_ERROR_OPERATION_NOT_SUPPORTED.v' class='invisible'><code>IPP_STATUS_ERROR_OPERATION_NOT_SUPPORTED</code></span></span><span id='variant.IPP_STATUS_ERROR_SERVICE_UNAVAILABLE' class='variant'><span id='IPP_STATUS_ERROR_SERVICE_UNAVAILABLE.v' class='invisible'><code>IPP_STATUS_ERROR_SERVICE_UNAVAILABLE</code></span></span><span id='variant.IPP_STATUS_ERROR_VERSION_NOT_SUPPORTED' class='variant'><span id='IPP_STATUS_ERROR_VERSION_NOT_SUPPORTED.v' class='invisible'><code>IPP_STATUS_ERROR_VERSION_NOT_SUPPORTED</code></span></span><span id='variant.IPP_STATUS_ERROR_DEVICE' class='variant'><span id='IPP_STATUS_ERROR_DEVICE.v' class='invisible'><code>IPP_STATUS_ERROR_DEVICE</code></span></span><span id='variant.IPP_STATUS_ERROR_TEMPORARY' class='variant'><span id='IPP_STATUS_ERROR_TEMPORARY.v' class='invisible'><code>IPP_STATUS_ERROR_TEMPORARY</code></span></span><span id='variant.IPP_STATUS_ERROR_NOT_ACCEPTING_JOBS' class='variant'><span id='IPP_STATUS_ERROR_NOT_ACCEPTING_JOBS.v' class='invisible'><code>IPP_STATUS_ERROR_NOT_ACCEPTING_JOBS</code></span></span><span id='variant.IPP_STATUS_ERROR_BUSY' class='variant'><span id='IPP_STATUS_ERROR_BUSY.v' class='invisible'><code>IPP_STATUS_ERROR_BUSY</code></span></span><span id='variant.IPP_STATUS_ERROR_JOB_CANCELED' class='variant'><span id='IPP_STATUS_ERROR_JOB_CANCELED.v' class='invisible'><code>IPP_STATUS_ERROR_JOB_CANCELED</code></span></span><span id='variant.IPP_STATUS_ERROR_MULTIPLE_JOBS_NOT_SUPPORTED' class='variant'><span id='IPP_STATUS_ERROR_MULTIPLE_JOBS_NOT_SUPPORTED.v' class='invisible'><code>IPP_STATUS_ERROR_MULTIPLE_JOBS_NOT_SUPPORTED</code></span></span><span id='variant.IPP_STATUS_ERROR_PRINTER_IS_DEACTIVATED' class='variant'><span id='IPP_STATUS_ERROR_PRINTER_IS_DEACTIVATED.v' class='invisible'><code>IPP_STATUS_ERROR_PRINTER_IS_DEACTIVATED</code></span></span><span id='variant.IPP_STATUS_ERROR_TOO_MANY_JOBS' class='variant'><span id='IPP_STATUS_ERROR_TOO_MANY_JOBS.v' class='invisible'><code>IPP_STATUS_ERROR_TOO_MANY_JOBS</code></span></span><span id='variant.IPP_STATUS_ERROR_TOO_MANY_DOCUMENTS' class='variant'><span id='IPP_STATUS_ERROR_TOO_MANY_DOCUMENTS.v' class='invisible'><code>IPP_STATUS_ERROR_TOO_MANY_DOCUMENTS</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_AUTHENTICATION_CANCELED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_AUTHENTICATION_CANCELED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_AUTHENTICATION_CANCELED</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_PKI' class='variant'><span id='IPP_STATUS_ERROR_CUPS_PKI.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_PKI</code></span></span><span id='variant.IPP_STATUS_ERROR_CUPS_UPGRADE_REQUIRED' class='variant'><span id='IPP_STATUS_ERROR_CUPS_UPGRADE_REQUIRED.v' class='invisible'><code>IPP_STATUS_ERROR_CUPS_UPGRADE_REQUIRED</code></span></span>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, __arg_0: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html" title="trait core::marker::Copy">Copy</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html" title="trait core::clone::Clone">Clone</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.clone' class="method"><span id='clone.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Returns a copy of the value. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">Read more</a></p>
+</div><h4 id='method.clone_from' class="method"><span id='clone_from.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Self)</code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/clone.rs.html#112-114' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs copy-assignment from <code>source</code>. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.eq' class="method"><span id='eq.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq' class='fnname'>eq</a>(&amp;self, __arg_0: &amp;<a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>self</code> and <code>other</code> values to be equal, and is used by <code>==</code>. <a href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq">Read more</a></p>
+</div><h4 id='method.ne' class="method"><span id='ne.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#method.ne' class='fnname'>ne</a>(&amp;self, other: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Rhs) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/cmp.rs.html#121' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>!=</code>.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html" title="trait core::cmp::Eq">Eq</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html" title="trait core::hash::Hash">Hash</a> for <a class="enum" href="../cups_sys/enum.ipp_status_e.html" title="enum cups_sys::ipp_status_e">ipp_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.hash' class="method"><span id='hash.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash' class='fnname'>hash</a>&lt;__H:&nbsp;<a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>&gt;(&amp;self, __arg_0: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>__H)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12670' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds this value into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash">Read more</a></p>
+</div><h4 id='method.hash_slice' class="method"><span id='hash_slice.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice' class='fnname'>hash_slice</a>&lt;H&gt;(data: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[Self]</a>, state: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>H) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;H: <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>,&nbsp;</span></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.3.0'>1.3.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/hash/mod.rs.html#202-208' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds a slice of this type into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "cups_sys";
+    </script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `ipp_finishings_e` enum in crate `cups_sys`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, ipp_finishings_e">
+
+    <title>cups_sys::ipp_finishings_e - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc enum">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Enum ipp_finishings_e</p><div class="block items"><ul><li><a href="#variants">Variants</a></li><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='index.html'>cups_sys</a></p><script>window.sidebarCurrent = {name: 'ipp_finishings_e', ty: 'enum', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Enum <a href='index.html'>cups_sys</a>::<wbr><a class="enum" href=''>ipp_finishings_e</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12417-12510' title='goto source code'>[src]</a></span></h1>
+<pre class='rust enum'><div class="docblock attributes">#[repr(u32)]
+</div>pub enum ipp_finishings_e {
+    IPP_FINISHINGS_NONE,
+    IPP_FINISHINGS_STAPLE,
+    IPP_FINISHINGS_PUNCH,
+    IPP_FINISHINGS_COVER,
+    IPP_FINISHINGS_BIND,
+    IPP_FINISHINGS_SADDLE_STITCH,
+    IPP_FINISHINGS_EDGE_STITCH,
+    IPP_FINISHINGS_FOLD,
+    IPP_FINISHINGS_TRIM,
+    IPP_FINISHINGS_BALE,
+    IPP_FINISHINGS_BOOKLET_MAKER,
+    IPP_FINISHINGS_JOG_OFFSET,
+    IPP_FINISHINGS_COAT,
+    IPP_FINISHINGS_LAMINATE,
+    IPP_FINISHINGS_STAPLE_TOP_LEFT,
+    IPP_FINISHINGS_STAPLE_BOTTOM_LEFT,
+    IPP_FINISHINGS_STAPLE_TOP_RIGHT,
+    IPP_FINISHINGS_STAPLE_BOTTOM_RIGHT,
+    IPP_FINISHINGS_EDGE_STITCH_LEFT,
+    IPP_FINISHINGS_EDGE_STITCH_TOP,
+    IPP_FINISHINGS_EDGE_STITCH_RIGHT,
+    IPP_FINISHINGS_EDGE_STITCH_BOTTOM,
+    IPP_FINISHINGS_STAPLE_DUAL_LEFT,
+    IPP_FINISHINGS_STAPLE_DUAL_TOP,
+    IPP_FINISHINGS_STAPLE_DUAL_RIGHT,
+    IPP_FINISHINGS_STAPLE_DUAL_BOTTOM,
+    IPP_FINISHINGS_STAPLE_TRIPLE_LEFT,
+    IPP_FINISHINGS_STAPLE_TRIPLE_TOP,
+    IPP_FINISHINGS_STAPLE_TRIPLE_RIGHT,
+    IPP_FINISHINGS_STAPLE_TRIPLE_BOTTOM,
+    IPP_FINISHINGS_BIND_LEFT,
+    IPP_FINISHINGS_BIND_TOP,
+    IPP_FINISHINGS_BIND_RIGHT,
+    IPP_FINISHINGS_BIND_BOTTOM,
+    IPP_FINISHINGS_TRIM_AFTER_PAGES,
+    IPP_FINISHINGS_TRIM_AFTER_DOCUMENTS,
+    IPP_FINISHINGS_TRIM_AFTER_COPIES,
+    IPP_FINISHINGS_TRIM_AFTER_JOB,
+    IPP_FINISHINGS_PUNCH_TOP_LEFT,
+    IPP_FINISHINGS_PUNCH_BOTTOM_LEFT,
+    IPP_FINISHINGS_PUNCH_TOP_RIGHT,
+    IPP_FINISHINGS_PUNCH_BOTTOM_RIGHT,
+    IPP_FINISHINGS_PUNCH_DUAL_LEFT,
+    IPP_FINISHINGS_PUNCH_DUAL_TOP,
+    IPP_FINISHINGS_PUNCH_DUAL_RIGHT,
+    IPP_FINISHINGS_PUNCH_DUAL_BOTTOM,
+    IPP_FINISHINGS_PUNCH_TRIPLE_LEFT,
+    IPP_FINISHINGS_PUNCH_TRIPLE_TOP,
+    IPP_FINISHINGS_PUNCH_TRIPLE_RIGHT,
+    IPP_FINISHINGS_PUNCH_TRIPLE_BOTTOM,
+    IPP_FINISHINGS_PUNCH_QUAD_LEFT,
+    IPP_FINISHINGS_PUNCH_QUAD_TOP,
+    IPP_FINISHINGS_PUNCH_QUAD_RIGHT,
+    IPP_FINISHINGS_PUNCH_QUAD_BOTTOM,
+    IPP_FINISHINGS_FOLD_ACCORDIAN,
+    IPP_FINISHINGS_FOLD_DOUBLE_GATE,
+    IPP_FINISHINGS_FOLD_GATE,
+    IPP_FINISHINGS_FOLD_HALF,
+    IPP_FINISHINGS_FOLD_HALF_Z,
+    IPP_FINISHINGS_FOLD_LEFT_GATE,
+    IPP_FINISHINGS_FOLD_LETTER,
+    IPP_FINISHINGS_FOLD_PARALLEL,
+    IPP_FINISHINGS_FOLD_POSTER,
+    IPP_FINISHINGS_FOLD_RIGHT_GATE,
+    IPP_FINISHINGS_FOLD_Z,
+    IPP_FINISHINGS_CUPS_PUNCH_TOP_LEFT,
+    IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_LEFT,
+    IPP_FINISHINGS_CUPS_PUNCH_TOP_RIGHT,
+    IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_RIGHT,
+    IPP_FINISHINGS_CUPS_PUNCH_DUAL_LEFT,
+    IPP_FINISHINGS_CUPS_PUNCH_DUAL_TOP,
+    IPP_FINISHINGS_CUPS_PUNCH_DUAL_RIGHT,
+    IPP_FINISHINGS_CUPS_PUNCH_DUAL_BOTTOM,
+    IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_LEFT,
+    IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_TOP,
+    IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_RIGHT,
+    IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_BOTTOM,
+    IPP_FINISHINGS_CUPS_PUNCH_QUAD_LEFT,
+    IPP_FINISHINGS_CUPS_PUNCH_QUAD_TOP,
+    IPP_FINISHINGS_CUPS_PUNCH_QUAD_RIGHT,
+    IPP_FINISHINGS_CUPS_PUNCH_QUAD_BOTTOM,
+    IPP_FINISHINGS_CUPS_FOLD_ACCORDIAN,
+    IPP_FINISHINGS_CUPS_FOLD_DOUBLE_GATE,
+    IPP_FINISHINGS_CUPS_FOLD_GATE,
+    IPP_FINISHINGS_CUPS_FOLD_HALF,
+    IPP_FINISHINGS_CUPS_FOLD_HALF_Z,
+    IPP_FINISHINGS_CUPS_FOLD_LEFT_GATE,
+    IPP_FINISHINGS_CUPS_FOLD_LETTER,
+    IPP_FINISHINGS_CUPS_FOLD_PARALLEL,
+    IPP_FINISHINGS_CUPS_FOLD_POSTER,
+    IPP_FINISHINGS_CUPS_FOLD_RIGHT_GATE,
+    IPP_FINISHINGS_CUPS_FOLD_Z,
+}</pre><h2 id='variants' class='variants small-section-header'>
+                   Variants<a href='#variants' class='anchor'></a></h2>
+<span id='variant.IPP_FINISHINGS_NONE' class='variant'><span id='IPP_FINISHINGS_NONE.v' class='invisible'><code>IPP_FINISHINGS_NONE</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE' class='variant'><span id='IPP_FINISHINGS_STAPLE.v' class='invisible'><code>IPP_FINISHINGS_STAPLE</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH' class='variant'><span id='IPP_FINISHINGS_PUNCH.v' class='invisible'><code>IPP_FINISHINGS_PUNCH</code></span></span><span id='variant.IPP_FINISHINGS_COVER' class='variant'><span id='IPP_FINISHINGS_COVER.v' class='invisible'><code>IPP_FINISHINGS_COVER</code></span></span><span id='variant.IPP_FINISHINGS_BIND' class='variant'><span id='IPP_FINISHINGS_BIND.v' class='invisible'><code>IPP_FINISHINGS_BIND</code></span></span><span id='variant.IPP_FINISHINGS_SADDLE_STITCH' class='variant'><span id='IPP_FINISHINGS_SADDLE_STITCH.v' class='invisible'><code>IPP_FINISHINGS_SADDLE_STITCH</code></span></span><span id='variant.IPP_FINISHINGS_EDGE_STITCH' class='variant'><span id='IPP_FINISHINGS_EDGE_STITCH.v' class='invisible'><code>IPP_FINISHINGS_EDGE_STITCH</code></span></span><span id='variant.IPP_FINISHINGS_FOLD' class='variant'><span id='IPP_FINISHINGS_FOLD.v' class='invisible'><code>IPP_FINISHINGS_FOLD</code></span></span><span id='variant.IPP_FINISHINGS_TRIM' class='variant'><span id='IPP_FINISHINGS_TRIM.v' class='invisible'><code>IPP_FINISHINGS_TRIM</code></span></span><span id='variant.IPP_FINISHINGS_BALE' class='variant'><span id='IPP_FINISHINGS_BALE.v' class='invisible'><code>IPP_FINISHINGS_BALE</code></span></span><span id='variant.IPP_FINISHINGS_BOOKLET_MAKER' class='variant'><span id='IPP_FINISHINGS_BOOKLET_MAKER.v' class='invisible'><code>IPP_FINISHINGS_BOOKLET_MAKER</code></span></span><span id='variant.IPP_FINISHINGS_JOG_OFFSET' class='variant'><span id='IPP_FINISHINGS_JOG_OFFSET.v' class='invisible'><code>IPP_FINISHINGS_JOG_OFFSET</code></span></span><span id='variant.IPP_FINISHINGS_COAT' class='variant'><span id='IPP_FINISHINGS_COAT.v' class='invisible'><code>IPP_FINISHINGS_COAT</code></span></span><span id='variant.IPP_FINISHINGS_LAMINATE' class='variant'><span id='IPP_FINISHINGS_LAMINATE.v' class='invisible'><code>IPP_FINISHINGS_LAMINATE</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TOP_LEFT' class='variant'><span id='IPP_FINISHINGS_STAPLE_TOP_LEFT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TOP_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_BOTTOM_LEFT' class='variant'><span id='IPP_FINISHINGS_STAPLE_BOTTOM_LEFT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_BOTTOM_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TOP_RIGHT' class='variant'><span id='IPP_FINISHINGS_STAPLE_TOP_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TOP_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_BOTTOM_RIGHT' class='variant'><span id='IPP_FINISHINGS_STAPLE_BOTTOM_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_BOTTOM_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_EDGE_STITCH_LEFT' class='variant'><span id='IPP_FINISHINGS_EDGE_STITCH_LEFT.v' class='invisible'><code>IPP_FINISHINGS_EDGE_STITCH_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_EDGE_STITCH_TOP' class='variant'><span id='IPP_FINISHINGS_EDGE_STITCH_TOP.v' class='invisible'><code>IPP_FINISHINGS_EDGE_STITCH_TOP</code></span></span><span id='variant.IPP_FINISHINGS_EDGE_STITCH_RIGHT' class='variant'><span id='IPP_FINISHINGS_EDGE_STITCH_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_EDGE_STITCH_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_EDGE_STITCH_BOTTOM' class='variant'><span id='IPP_FINISHINGS_EDGE_STITCH_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_EDGE_STITCH_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_DUAL_LEFT' class='variant'><span id='IPP_FINISHINGS_STAPLE_DUAL_LEFT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_DUAL_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_DUAL_TOP' class='variant'><span id='IPP_FINISHINGS_STAPLE_DUAL_TOP.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_DUAL_TOP</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_DUAL_RIGHT' class='variant'><span id='IPP_FINISHINGS_STAPLE_DUAL_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_DUAL_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_DUAL_BOTTOM' class='variant'><span id='IPP_FINISHINGS_STAPLE_DUAL_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_DUAL_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TRIPLE_LEFT' class='variant'><span id='IPP_FINISHINGS_STAPLE_TRIPLE_LEFT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TRIPLE_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TRIPLE_TOP' class='variant'><span id='IPP_FINISHINGS_STAPLE_TRIPLE_TOP.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TRIPLE_TOP</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TRIPLE_RIGHT' class='variant'><span id='IPP_FINISHINGS_STAPLE_TRIPLE_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TRIPLE_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_STAPLE_TRIPLE_BOTTOM' class='variant'><span id='IPP_FINISHINGS_STAPLE_TRIPLE_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_STAPLE_TRIPLE_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_BIND_LEFT' class='variant'><span id='IPP_FINISHINGS_BIND_LEFT.v' class='invisible'><code>IPP_FINISHINGS_BIND_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_BIND_TOP' class='variant'><span id='IPP_FINISHINGS_BIND_TOP.v' class='invisible'><code>IPP_FINISHINGS_BIND_TOP</code></span></span><span id='variant.IPP_FINISHINGS_BIND_RIGHT' class='variant'><span id='IPP_FINISHINGS_BIND_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_BIND_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_BIND_BOTTOM' class='variant'><span id='IPP_FINISHINGS_BIND_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_BIND_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_TRIM_AFTER_PAGES' class='variant'><span id='IPP_FINISHINGS_TRIM_AFTER_PAGES.v' class='invisible'><code>IPP_FINISHINGS_TRIM_AFTER_PAGES</code></span></span><span id='variant.IPP_FINISHINGS_TRIM_AFTER_DOCUMENTS' class='variant'><span id='IPP_FINISHINGS_TRIM_AFTER_DOCUMENTS.v' class='invisible'><code>IPP_FINISHINGS_TRIM_AFTER_DOCUMENTS</code></span></span><span id='variant.IPP_FINISHINGS_TRIM_AFTER_COPIES' class='variant'><span id='IPP_FINISHINGS_TRIM_AFTER_COPIES.v' class='invisible'><code>IPP_FINISHINGS_TRIM_AFTER_COPIES</code></span></span><span id='variant.IPP_FINISHINGS_TRIM_AFTER_JOB' class='variant'><span id='IPP_FINISHINGS_TRIM_AFTER_JOB.v' class='invisible'><code>IPP_FINISHINGS_TRIM_AFTER_JOB</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TOP_LEFT' class='variant'><span id='IPP_FINISHINGS_PUNCH_TOP_LEFT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TOP_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_BOTTOM_LEFT' class='variant'><span id='IPP_FINISHINGS_PUNCH_BOTTOM_LEFT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_BOTTOM_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TOP_RIGHT' class='variant'><span id='IPP_FINISHINGS_PUNCH_TOP_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TOP_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_BOTTOM_RIGHT' class='variant'><span id='IPP_FINISHINGS_PUNCH_BOTTOM_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_BOTTOM_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_DUAL_LEFT' class='variant'><span id='IPP_FINISHINGS_PUNCH_DUAL_LEFT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_DUAL_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_DUAL_TOP' class='variant'><span id='IPP_FINISHINGS_PUNCH_DUAL_TOP.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_DUAL_TOP</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_DUAL_RIGHT' class='variant'><span id='IPP_FINISHINGS_PUNCH_DUAL_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_DUAL_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_DUAL_BOTTOM' class='variant'><span id='IPP_FINISHINGS_PUNCH_DUAL_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_DUAL_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TRIPLE_LEFT' class='variant'><span id='IPP_FINISHINGS_PUNCH_TRIPLE_LEFT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TRIPLE_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TRIPLE_TOP' class='variant'><span id='IPP_FINISHINGS_PUNCH_TRIPLE_TOP.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TRIPLE_TOP</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TRIPLE_RIGHT' class='variant'><span id='IPP_FINISHINGS_PUNCH_TRIPLE_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TRIPLE_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_TRIPLE_BOTTOM' class='variant'><span id='IPP_FINISHINGS_PUNCH_TRIPLE_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_TRIPLE_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_QUAD_LEFT' class='variant'><span id='IPP_FINISHINGS_PUNCH_QUAD_LEFT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_QUAD_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_QUAD_TOP' class='variant'><span id='IPP_FINISHINGS_PUNCH_QUAD_TOP.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_QUAD_TOP</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_QUAD_RIGHT' class='variant'><span id='IPP_FINISHINGS_PUNCH_QUAD_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_QUAD_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_PUNCH_QUAD_BOTTOM' class='variant'><span id='IPP_FINISHINGS_PUNCH_QUAD_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_PUNCH_QUAD_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_ACCORDIAN' class='variant'><span id='IPP_FINISHINGS_FOLD_ACCORDIAN.v' class='invisible'><code>IPP_FINISHINGS_FOLD_ACCORDIAN</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_DOUBLE_GATE' class='variant'><span id='IPP_FINISHINGS_FOLD_DOUBLE_GATE.v' class='invisible'><code>IPP_FINISHINGS_FOLD_DOUBLE_GATE</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_GATE' class='variant'><span id='IPP_FINISHINGS_FOLD_GATE.v' class='invisible'><code>IPP_FINISHINGS_FOLD_GATE</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_HALF' class='variant'><span id='IPP_FINISHINGS_FOLD_HALF.v' class='invisible'><code>IPP_FINISHINGS_FOLD_HALF</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_HALF_Z' class='variant'><span id='IPP_FINISHINGS_FOLD_HALF_Z.v' class='invisible'><code>IPP_FINISHINGS_FOLD_HALF_Z</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_LEFT_GATE' class='variant'><span id='IPP_FINISHINGS_FOLD_LEFT_GATE.v' class='invisible'><code>IPP_FINISHINGS_FOLD_LEFT_GATE</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_LETTER' class='variant'><span id='IPP_FINISHINGS_FOLD_LETTER.v' class='invisible'><code>IPP_FINISHINGS_FOLD_LETTER</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_PARALLEL' class='variant'><span id='IPP_FINISHINGS_FOLD_PARALLEL.v' class='invisible'><code>IPP_FINISHINGS_FOLD_PARALLEL</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_POSTER' class='variant'><span id='IPP_FINISHINGS_FOLD_POSTER.v' class='invisible'><code>IPP_FINISHINGS_FOLD_POSTER</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_RIGHT_GATE' class='variant'><span id='IPP_FINISHINGS_FOLD_RIGHT_GATE.v' class='invisible'><code>IPP_FINISHINGS_FOLD_RIGHT_GATE</code></span></span><span id='variant.IPP_FINISHINGS_FOLD_Z' class='variant'><span id='IPP_FINISHINGS_FOLD_Z.v' class='invisible'><code>IPP_FINISHINGS_FOLD_Z</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TOP_LEFT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TOP_LEFT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TOP_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_LEFT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_LEFT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TOP_RIGHT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TOP_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TOP_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_RIGHT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_BOTTOM_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_DUAL_LEFT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_DUAL_LEFT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_DUAL_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_DUAL_TOP' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_DUAL_TOP.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_DUAL_TOP</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_DUAL_RIGHT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_DUAL_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_DUAL_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_DUAL_BOTTOM' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_DUAL_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_DUAL_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_LEFT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_LEFT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_TOP' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_TOP.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_TOP</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_RIGHT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_BOTTOM' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_TRIPLE_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_QUAD_LEFT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_QUAD_LEFT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_QUAD_LEFT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_QUAD_TOP' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_QUAD_TOP.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_QUAD_TOP</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_QUAD_RIGHT' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_QUAD_RIGHT.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_QUAD_RIGHT</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_PUNCH_QUAD_BOTTOM' class='variant'><span id='IPP_FINISHINGS_CUPS_PUNCH_QUAD_BOTTOM.v' class='invisible'><code>IPP_FINISHINGS_CUPS_PUNCH_QUAD_BOTTOM</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_ACCORDIAN' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_ACCORDIAN.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_ACCORDIAN</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_DOUBLE_GATE' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_DOUBLE_GATE.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_DOUBLE_GATE</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_GATE' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_GATE.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_GATE</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_HALF' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_HALF.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_HALF</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_HALF_Z' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_HALF_Z.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_HALF_Z</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_LEFT_GATE' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_LEFT_GATE.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_LEFT_GATE</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_LETTER' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_LETTER.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_LETTER</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_PARALLEL' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_PARALLEL.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_PARALLEL</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_POSTER' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_POSTER.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_POSTER</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_RIGHT_GATE' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_RIGHT_GATE.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_RIGHT_GATE</code></span></span><span id='variant.IPP_FINISHINGS_CUPS_FOLD_Z' class='variant'><span id='IPP_FINISHINGS_CUPS_FOLD_Z.v' class='invisible'><code>IPP_FINISHINGS_CUPS_FOLD_Z</code></span></span>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, __arg_0: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html" title="trait core::marker::Copy">Copy</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html" title="trait core::clone::Clone">Clone</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.clone' class="method"><span id='clone.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Returns a copy of the value. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">Read more</a></p>
+</div><h4 id='method.clone_from' class="method"><span id='clone_from.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Self)</code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/clone.rs.html#112-114' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs copy-assignment from <code>source</code>. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.eq' class="method"><span id='eq.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq' class='fnname'>eq</a>(&amp;self, __arg_0: &amp;<a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>self</code> and <code>other</code> values to be equal, and is used by <code>==</code>. <a href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq">Read more</a></p>
+</div><h4 id='method.ne' class="method"><span id='ne.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#method.ne' class='fnname'>ne</a>(&amp;self, other: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Rhs) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/cmp.rs.html#121' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>!=</code>.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html" title="trait core::cmp::Eq">Eq</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html" title="trait core::hash::Hash">Hash</a> for <a class="enum" href="../cups_sys/enum.ipp_finishings_e.html" title="enum cups_sys::ipp_finishings_e">ipp_finishings_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.hash' class="method"><span id='hash.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash' class='fnname'>hash</a>&lt;__H:&nbsp;<a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>&gt;(&amp;self, __arg_0: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>__H)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#12416' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds this value into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash">Read more</a></p>
+</div><h4 id='method.hash_slice' class="method"><span id='hash_slice.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice' class='fnname'>hash_slice</a>&lt;H&gt;(data: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[Self]</a>, state: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>H) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;H: <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>,&nbsp;</span></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.3.0'>1.3.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/hash/mod.rs.html#202-208' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds a slice of this type into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "cups_sys";
+    </script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>

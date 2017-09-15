@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `http_status_e` enum in crate `cups_sys`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, http_status_e">
+
+    <title>cups_sys::http_status_e - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc enum">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Enum http_status_e</p><div class="block items"><ul><li><a href="#variants">Variants</a></li><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='index.html'>cups_sys</a></p><script>window.sidebarCurrent = {name: 'http_status_e', ty: 'enum', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Enum <a href='index.html'>cups_sys</a>::<wbr><a class="enum" href=''>http_status_e</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11678-11724' title='goto source code'>[src]</a></span></h1>
+<pre class='rust enum'><div class="docblock attributes">#[repr(i32)]
+</div>pub enum http_status_e {
+    HTTP_STATUS_ERROR,
+    HTTP_STATUS_NONE,
+    HTTP_STATUS_CONTINUE,
+    HTTP_STATUS_SWITCHING_PROTOCOLS,
+    HTTP_STATUS_OK,
+    HTTP_STATUS_CREATED,
+    HTTP_STATUS_ACCEPTED,
+    HTTP_STATUS_NOT_AUTHORITATIVE,
+    HTTP_STATUS_NO_CONTENT,
+    HTTP_STATUS_RESET_CONTENT,
+    HTTP_STATUS_PARTIAL_CONTENT,
+    HTTP_STATUS_MULTIPLE_CHOICES,
+    HTTP_STATUS_MOVED_PERMANENTLY,
+    HTTP_STATUS_MOVED_TEMPORARILY,
+    HTTP_STATUS_SEE_OTHER,
+    HTTP_STATUS_NOT_MODIFIED,
+    HTTP_STATUS_USE_PROXY,
+    HTTP_STATUS_BAD_REQUEST,
+    HTTP_STATUS_UNAUTHORIZED,
+    HTTP_STATUS_PAYMENT_REQUIRED,
+    HTTP_STATUS_FORBIDDEN,
+    HTTP_STATUS_NOT_FOUND,
+    HTTP_STATUS_METHOD_NOT_ALLOWED,
+    HTTP_STATUS_NOT_ACCEPTABLE,
+    HTTP_STATUS_PROXY_AUTHENTICATION,
+    HTTP_STATUS_REQUEST_TIMEOUT,
+    HTTP_STATUS_CONFLICT,
+    HTTP_STATUS_GONE,
+    HTTP_STATUS_LENGTH_REQUIRED,
+    HTTP_STATUS_PRECONDITION,
+    HTTP_STATUS_REQUEST_TOO_LARGE,
+    HTTP_STATUS_URI_TOO_LONG,
+    HTTP_STATUS_UNSUPPORTED_MEDIATYPE,
+    HTTP_STATUS_REQUESTED_RANGE,
+    HTTP_STATUS_EXPECTATION_FAILED,
+    HTTP_STATUS_UPGRADE_REQUIRED,
+    HTTP_STATUS_SERVER_ERROR,
+    HTTP_STATUS_NOT_IMPLEMENTED,
+    HTTP_STATUS_BAD_GATEWAY,
+    HTTP_STATUS_SERVICE_UNAVAILABLE,
+    HTTP_STATUS_GATEWAY_TIMEOUT,
+    HTTP_STATUS_NOT_SUPPORTED,
+    HTTP_STATUS_CUPS_AUTHORIZATION_CANCELED,
+    HTTP_STATUS_CUPS_PKI_ERROR,
+    HTTP_STATUS_CUPS_WEBIF_DISABLED,
+}</pre><h2 id='variants' class='variants small-section-header'>
+                   Variants<a href='#variants' class='anchor'></a></h2>
+<span id='variant.HTTP_STATUS_ERROR' class='variant'><span id='HTTP_STATUS_ERROR.v' class='invisible'><code>HTTP_STATUS_ERROR</code></span></span><span id='variant.HTTP_STATUS_NONE' class='variant'><span id='HTTP_STATUS_NONE.v' class='invisible'><code>HTTP_STATUS_NONE</code></span></span><span id='variant.HTTP_STATUS_CONTINUE' class='variant'><span id='HTTP_STATUS_CONTINUE.v' class='invisible'><code>HTTP_STATUS_CONTINUE</code></span></span><span id='variant.HTTP_STATUS_SWITCHING_PROTOCOLS' class='variant'><span id='HTTP_STATUS_SWITCHING_PROTOCOLS.v' class='invisible'><code>HTTP_STATUS_SWITCHING_PROTOCOLS</code></span></span><span id='variant.HTTP_STATUS_OK' class='variant'><span id='HTTP_STATUS_OK.v' class='invisible'><code>HTTP_STATUS_OK</code></span></span><span id='variant.HTTP_STATUS_CREATED' class='variant'><span id='HTTP_STATUS_CREATED.v' class='invisible'><code>HTTP_STATUS_CREATED</code></span></span><span id='variant.HTTP_STATUS_ACCEPTED' class='variant'><span id='HTTP_STATUS_ACCEPTED.v' class='invisible'><code>HTTP_STATUS_ACCEPTED</code></span></span><span id='variant.HTTP_STATUS_NOT_AUTHORITATIVE' class='variant'><span id='HTTP_STATUS_NOT_AUTHORITATIVE.v' class='invisible'><code>HTTP_STATUS_NOT_AUTHORITATIVE</code></span></span><span id='variant.HTTP_STATUS_NO_CONTENT' class='variant'><span id='HTTP_STATUS_NO_CONTENT.v' class='invisible'><code>HTTP_STATUS_NO_CONTENT</code></span></span><span id='variant.HTTP_STATUS_RESET_CONTENT' class='variant'><span id='HTTP_STATUS_RESET_CONTENT.v' class='invisible'><code>HTTP_STATUS_RESET_CONTENT</code></span></span><span id='variant.HTTP_STATUS_PARTIAL_CONTENT' class='variant'><span id='HTTP_STATUS_PARTIAL_CONTENT.v' class='invisible'><code>HTTP_STATUS_PARTIAL_CONTENT</code></span></span><span id='variant.HTTP_STATUS_MULTIPLE_CHOICES' class='variant'><span id='HTTP_STATUS_MULTIPLE_CHOICES.v' class='invisible'><code>HTTP_STATUS_MULTIPLE_CHOICES</code></span></span><span id='variant.HTTP_STATUS_MOVED_PERMANENTLY' class='variant'><span id='HTTP_STATUS_MOVED_PERMANENTLY.v' class='invisible'><code>HTTP_STATUS_MOVED_PERMANENTLY</code></span></span><span id='variant.HTTP_STATUS_MOVED_TEMPORARILY' class='variant'><span id='HTTP_STATUS_MOVED_TEMPORARILY.v' class='invisible'><code>HTTP_STATUS_MOVED_TEMPORARILY</code></span></span><span id='variant.HTTP_STATUS_SEE_OTHER' class='variant'><span id='HTTP_STATUS_SEE_OTHER.v' class='invisible'><code>HTTP_STATUS_SEE_OTHER</code></span></span><span id='variant.HTTP_STATUS_NOT_MODIFIED' class='variant'><span id='HTTP_STATUS_NOT_MODIFIED.v' class='invisible'><code>HTTP_STATUS_NOT_MODIFIED</code></span></span><span id='variant.HTTP_STATUS_USE_PROXY' class='variant'><span id='HTTP_STATUS_USE_PROXY.v' class='invisible'><code>HTTP_STATUS_USE_PROXY</code></span></span><span id='variant.HTTP_STATUS_BAD_REQUEST' class='variant'><span id='HTTP_STATUS_BAD_REQUEST.v' class='invisible'><code>HTTP_STATUS_BAD_REQUEST</code></span></span><span id='variant.HTTP_STATUS_UNAUTHORIZED' class='variant'><span id='HTTP_STATUS_UNAUTHORIZED.v' class='invisible'><code>HTTP_STATUS_UNAUTHORIZED</code></span></span><span id='variant.HTTP_STATUS_PAYMENT_REQUIRED' class='variant'><span id='HTTP_STATUS_PAYMENT_REQUIRED.v' class='invisible'><code>HTTP_STATUS_PAYMENT_REQUIRED</code></span></span><span id='variant.HTTP_STATUS_FORBIDDEN' class='variant'><span id='HTTP_STATUS_FORBIDDEN.v' class='invisible'><code>HTTP_STATUS_FORBIDDEN</code></span></span><span id='variant.HTTP_STATUS_NOT_FOUND' class='variant'><span id='HTTP_STATUS_NOT_FOUND.v' class='invisible'><code>HTTP_STATUS_NOT_FOUND</code></span></span><span id='variant.HTTP_STATUS_METHOD_NOT_ALLOWED' class='variant'><span id='HTTP_STATUS_METHOD_NOT_ALLOWED.v' class='invisible'><code>HTTP_STATUS_METHOD_NOT_ALLOWED</code></span></span><span id='variant.HTTP_STATUS_NOT_ACCEPTABLE' class='variant'><span id='HTTP_STATUS_NOT_ACCEPTABLE.v' class='invisible'><code>HTTP_STATUS_NOT_ACCEPTABLE</code></span></span><span id='variant.HTTP_STATUS_PROXY_AUTHENTICATION' class='variant'><span id='HTTP_STATUS_PROXY_AUTHENTICATION.v' class='invisible'><code>HTTP_STATUS_PROXY_AUTHENTICATION</code></span></span><span id='variant.HTTP_STATUS_REQUEST_TIMEOUT' class='variant'><span id='HTTP_STATUS_REQUEST_TIMEOUT.v' class='invisible'><code>HTTP_STATUS_REQUEST_TIMEOUT</code></span></span><span id='variant.HTTP_STATUS_CONFLICT' class='variant'><span id='HTTP_STATUS_CONFLICT.v' class='invisible'><code>HTTP_STATUS_CONFLICT</code></span></span><span id='variant.HTTP_STATUS_GONE' class='variant'><span id='HTTP_STATUS_GONE.v' class='invisible'><code>HTTP_STATUS_GONE</code></span></span><span id='variant.HTTP_STATUS_LENGTH_REQUIRED' class='variant'><span id='HTTP_STATUS_LENGTH_REQUIRED.v' class='invisible'><code>HTTP_STATUS_LENGTH_REQUIRED</code></span></span><span id='variant.HTTP_STATUS_PRECONDITION' class='variant'><span id='HTTP_STATUS_PRECONDITION.v' class='invisible'><code>HTTP_STATUS_PRECONDITION</code></span></span><span id='variant.HTTP_STATUS_REQUEST_TOO_LARGE' class='variant'><span id='HTTP_STATUS_REQUEST_TOO_LARGE.v' class='invisible'><code>HTTP_STATUS_REQUEST_TOO_LARGE</code></span></span><span id='variant.HTTP_STATUS_URI_TOO_LONG' class='variant'><span id='HTTP_STATUS_URI_TOO_LONG.v' class='invisible'><code>HTTP_STATUS_URI_TOO_LONG</code></span></span><span id='variant.HTTP_STATUS_UNSUPPORTED_MEDIATYPE' class='variant'><span id='HTTP_STATUS_UNSUPPORTED_MEDIATYPE.v' class='invisible'><code>HTTP_STATUS_UNSUPPORTED_MEDIATYPE</code></span></span><span id='variant.HTTP_STATUS_REQUESTED_RANGE' class='variant'><span id='HTTP_STATUS_REQUESTED_RANGE.v' class='invisible'><code>HTTP_STATUS_REQUESTED_RANGE</code></span></span><span id='variant.HTTP_STATUS_EXPECTATION_FAILED' class='variant'><span id='HTTP_STATUS_EXPECTATION_FAILED.v' class='invisible'><code>HTTP_STATUS_EXPECTATION_FAILED</code></span></span><span id='variant.HTTP_STATUS_UPGRADE_REQUIRED' class='variant'><span id='HTTP_STATUS_UPGRADE_REQUIRED.v' class='invisible'><code>HTTP_STATUS_UPGRADE_REQUIRED</code></span></span><span id='variant.HTTP_STATUS_SERVER_ERROR' class='variant'><span id='HTTP_STATUS_SERVER_ERROR.v' class='invisible'><code>HTTP_STATUS_SERVER_ERROR</code></span></span><span id='variant.HTTP_STATUS_NOT_IMPLEMENTED' class='variant'><span id='HTTP_STATUS_NOT_IMPLEMENTED.v' class='invisible'><code>HTTP_STATUS_NOT_IMPLEMENTED</code></span></span><span id='variant.HTTP_STATUS_BAD_GATEWAY' class='variant'><span id='HTTP_STATUS_BAD_GATEWAY.v' class='invisible'><code>HTTP_STATUS_BAD_GATEWAY</code></span></span><span id='variant.HTTP_STATUS_SERVICE_UNAVAILABLE' class='variant'><span id='HTTP_STATUS_SERVICE_UNAVAILABLE.v' class='invisible'><code>HTTP_STATUS_SERVICE_UNAVAILABLE</code></span></span><span id='variant.HTTP_STATUS_GATEWAY_TIMEOUT' class='variant'><span id='HTTP_STATUS_GATEWAY_TIMEOUT.v' class='invisible'><code>HTTP_STATUS_GATEWAY_TIMEOUT</code></span></span><span id='variant.HTTP_STATUS_NOT_SUPPORTED' class='variant'><span id='HTTP_STATUS_NOT_SUPPORTED.v' class='invisible'><code>HTTP_STATUS_NOT_SUPPORTED</code></span></span><span id='variant.HTTP_STATUS_CUPS_AUTHORIZATION_CANCELED' class='variant'><span id='HTTP_STATUS_CUPS_AUTHORIZATION_CANCELED.v' class='invisible'><code>HTTP_STATUS_CUPS_AUTHORIZATION_CANCELED</code></span></span><span id='variant.HTTP_STATUS_CUPS_PKI_ERROR' class='variant'><span id='HTTP_STATUS_CUPS_PKI_ERROR.v' class='invisible'><code>HTTP_STATUS_CUPS_PKI_ERROR</code></span></span><span id='variant.HTTP_STATUS_CUPS_WEBIF_DISABLED' class='variant'><span id='HTTP_STATUS_CUPS_WEBIF_DISABLED.v' class='invisible'><code>HTTP_STATUS_CUPS_WEBIF_DISABLED</code></span></span>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, __arg_0: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html" title="trait core::marker::Copy">Copy</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html" title="trait core::clone::Clone">Clone</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.clone' class="method"><span id='clone.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Returns a copy of the value. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">Read more</a></p>
+</div><h4 id='method.clone_from' class="method"><span id='clone_from.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Self)</code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/clone.rs.html#112-114' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Performs copy-assignment from <code>source</code>. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.eq' class="method"><span id='eq.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq' class='fnname'>eq</a>(&amp;self, __arg_0: &amp;<a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>self</code> and <code>other</code> values to be equal, and is used by <code>==</code>. <a href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq">Read more</a></p>
+</div><h4 id='method.ne' class="method"><span id='ne.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#method.ne' class='fnname'>ne</a>(&amp;self, other: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;</a>Rhs) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/cmp.rs.html#121' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>!=</code>.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html" title="trait core::cmp::Eq">Eq</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html" title="trait core::hash::Hash">Hash</a> for <a class="enum" href="../cups_sys/enum.http_status_e.html" title="enum cups_sys::http_status_e">http_status_e</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.hash' class="method"><span id='hash.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash' class='fnname'>hash</a>&lt;__H:&nbsp;<a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>&gt;(&amp;self, __arg_0: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>__H)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/cups_sys/Users/legnitto/src/cups-sys/target/debug/build/cups-sys-2e168e23654147ca/out/bindings.rs.html#11677' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds this value into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#tymethod.hash">Read more</a></p>
+</div><h4 id='method.hash_slice' class="method"><span id='hash_slice.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice' class='fnname'>hash_slice</a>&lt;H&gt;(data: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[Self]</a>, state: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.reference.html">&amp;mut </a>H) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;H: <a class="trait" href="https://doc.rust-lang.org/nightly/core/hash/trait.Hasher.html" title="trait core::hash::Hasher">Hasher</a>,&nbsp;</span></code></span><span class='out-of-band'><div class='ghost'></div><div class='since' title='Stable since Rust version 1.3.0'>1.3.0</div><a class='srclink' href='https://doc.rust-lang.org/nightly/src/core/hash/mod.rs.html#202-208' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Feeds a slice of this type into the given [<code>Hasher</code>]. <a href="https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html#method.hash_slice">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "cups_sys";
+    </script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>

@@ -46,7 +46,7 @@ For a pure-Rust IPP implementation, check out [`ipp.rs`](https://github.com/drem
 Documentation
 -----------------------------------------
 
-The auto-generated FFI reference docs can be found at https://docs.rs/cups-sys/.
+The auto-generated FFI reference docs can be found at https://legneato.github.io/cups-sys/cups_sys/.
 
 The original CUPS API documentation (with examples) can be found at https://www.cups.org/doc/api-cups.html.
 

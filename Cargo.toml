@@ -5,6 +5,7 @@ description = "Low-level interface to the CUPS printing library."
 authors = ["Christian Legnitto <christian@legnitto.com>"]
 license = "MIT/Apache-2.0"
 repository = "https://github.com/LegNeato/cups-sys"
+documentation = "https://legneato.github.io/cups-sys/cups_sys/"
 readme = "README.md"
 keywords = ["print", "cups", "printer", "ipp", "lpd"]
 categories = ["external-ffi-bindings"]

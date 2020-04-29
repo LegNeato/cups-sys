@@ -24,7 +24,8 @@ fn main() {
         // 'assertion failed: `(left == right)`"
         .layout_tests(false)
         // This fails with "`IPPORT_RESERVED` already defined" on Linux.
-        .hide_type("IPPORT_RESERVED")
+        .blacklist_item("IPPORT_RESERVED")
+
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.

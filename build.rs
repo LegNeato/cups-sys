@@ -19,10 +19,6 @@ fn main() {
         .opaque_type("__msfilterreq")
         .opaque_type("group_req")
         .opaque_type("group_source_req")
-        // bindgen layout tests fail on Rust nightly >1.21.0
-        // "thread 'bindgen_test_layout_max_align_t' panicked at
-        // 'assertion failed: `(left == right)`"
-        .layout_tests(false)
         // This fails with "`IPPORT_RESERVED` already defined" on Linux.
         .blacklist_item("IPPORT_RESERVED")
 
